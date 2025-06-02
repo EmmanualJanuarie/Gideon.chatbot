@@ -126,3 +126,23 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+/* Loading card css */
+.loading-card {
+  position: fixed;
+  top: 70px;
+  right: -300px;
+  width: 280px;
+  background-color: #03dac6;
+  color: #000;
+  padding: 15px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: right 0.6s ease-in-out;
+  z-index: 2000;
+  font-weight: bold;
+}
+
+.loading-card.show {
+  right: 0;
+}
