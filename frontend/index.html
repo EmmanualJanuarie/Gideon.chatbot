@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gideon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gideon</h1>
+    <button id="themeToggle" aria-label="Toggle Theme">🌓</button>
+  </header>
+
+  <main>
+    <!-- wELCOME MESSAGE -->
+    <section class="welcome">
+      <h2>Welcome to Gideon</h2>
+      <p>Your futuristic AI companion. Choose a prompt below to begin.</p>
+    </section>
+
+    <!-- Prompt Cards for Gideon -->
+    <section class="prompt-cards">
+      <div class="card" onclick="goToPrompt('What is Machine Learing?')">🤖 What's Machine Learning?</div>
+      <div class="card" onclick="goToPrompt('What is LLMs')">📊 What's LLMs?</div>
+      <div class="card" onclick="goToPrompt('Explain Neural Networks')">🧠 Explain Neural Networks</div>
+      <div class="card" onclick="goToPrompt('What is Computer Vision')">🖥️ What's Computer Vision?</div>
+      <div class="card" onclick="goToPrompt('What is NLP?')">✍️ What's NLP?</div>
+    </section>
+  </main>
+
+   <section class="section-center" id="genQuiz">
+      <div class="card" onclick="goToPrompt('Generate a quiz')">Generate a Quiz</div>
+    </section>
+
+ 
+
+  <button class="ask-gideon" onclick="askGideon()">Ask Gideon a Question</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
