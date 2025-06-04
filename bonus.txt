@@ -1,0 +1,41 @@
+Q: What is Machine Learning?
+A: Machine Learning is a subset of AI that allows systems to learn from data.
+
+Q: What's the difference between AI and ML?
+A: AI is the broader concept; ML is a part of AI focused on learning from data.
+
+Q: What is a Neural Network?
+A: A Neural Network is a series of algorithms that attempt to recognize underlying relationships in data through a process that mimics the way the human brain operates.
+
+Q: What is supervised learning?
+A: It’s a type of machine learning where the model is trained on labeled data. Module 1 goes into this in detail: https://cognitiveclass.ai/courses/machine-learning-with-python
+
+Q: What is unsupervised learning?
+A: Unsupervised learning involves training a model on data without labels to find patterns or structures.
+
+Q: What is overfitting in machine learning?
+A: Overfitting happens when a model learns the training data too well and performs poorly on new data.
+
+Q: How does computer vision work?
+A: Computer vision enables machines to interpret visual information from the world. It often uses CNNs (convolutional neural networks) to process image data.
+
+Q: What is transfer learning?
+A: Transfer learning uses a pre-trained model on one task to improve learning in another related task.
+
+Q: Can you explain reinforcement learning?
+A: Reinforcement Learning is a type of ML where an agent learns by interacting with its environment and receiving rewards or penalties.
+
+Q: What is a chatbot?
+A: A chatbot is an AI system designed to simulate human conversation.
+
+Q: What is computer vision?
+A: Computer vision enables machines to interpret and understand visual information from the world.
+
+Q: How is bias introduced in AI models?
+A: Bias can be introduced through unbalanced or non-representative training data, as well as developer assumptions.
+
+Q: What are Large Language Models (LLMs)?
+A: LLMs are advanced AI models trained on vast datasets capable of generating human-like text. GPT-4 is an example.
+
+Q: How can I improve my understanding of AI?
+A: Follow up with the bootcamp modules, join AI forums like Stack Overflow or Reddit’s r/MachineLearning, and check out YouTube channels like 3Blue1Brown or StatQuest.

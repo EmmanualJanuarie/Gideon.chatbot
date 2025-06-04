@@ -1,0 +1,14 @@
+Q: How is AI used in healthcare?
+A: AI helps with medical imaging, diagnostics, personalized treatment plans, and drug discovery.
+
+Q: What are AI applications in finance?
+A: AI is used for fraud detection, algorithmic trading, credit scoring, and customer service chatbots.
+
+Q: How does AI impact retail?
+A: AI powers recommendation engines, inventory management, and customer behavior analysis.
+
+Q: What role does AI play in autonomous vehicles?
+A: AI processes sensor data to help cars navigate and make driving decisions.
+
+Q: What are some real-world applications of AI?
+A: AI is used in recommendation systems, fraud detection, virtual assistants, autonomous vehicles, medical diagnosis, and more.

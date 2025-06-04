@@ -1,0 +1,11 @@
+Q: Where can I learn more about NLP?
+A: You can check out Module 2: Natural Language Processing in the Bootcamp curriculum. Here's the link for the course: https://www.coursera.org/specializations/natural-language-processing
+
+Q: How can I dive deeper into AI Ethics?
+A: Explore Module 4: Ethics & Social Impacts of AI. It covers bias, fairness, and privacy concerns.
+
+Q: What module covers machine learning basics?
+A: Module 1: Introduction to Machine Learning is a great starting point. Here's the link to the course: https://cognitiveclass.ai/courses/machine-learning-with-python
+
+Q: How do I learn more about neural networks and deep learning?
+A: Try Module 4: Deep Learning with TensorFlow. It covers architectures like CNNs and RNNs. https://cognitiveclass.ai/courses/deep-learning-tensorflow

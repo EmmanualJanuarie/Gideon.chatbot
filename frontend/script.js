@@ -10,11 +10,6 @@ function goToPrompt(prompt) {
   window.location.href = `/gideon?prompt=${encodedPrompt}`;
 }
 
-// Navigate to Gideon's main chat interface
-function askGideon() {
-  window.location.href = "/gideon";
-}
-
 //Loading card js:
   const loadingCard = document.getElementById("loadingCard");
   const loadingText = document.getElementById("loadingText");
@@ -34,6 +29,9 @@ function askGideon() {
 
   function askGideon() {
     showLoadingMessage(`💬 Launching Gideon… Please wait.`);
+    setTimeout(() => {
+    window.location.href = 'https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/04/05/20250604055827-JE1NJD18.json';
+    }, 5000); // 5000 milliseconds = 5 seconds
     // Trigger any further action here if needed.
   }
 

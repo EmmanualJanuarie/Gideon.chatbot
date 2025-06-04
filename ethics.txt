@@ -1,0 +1,11 @@
+Q: Why is AI ethics important?
+A: To ensure AI systems are fair, transparent, and do not cause harm.
+
+Q: What is algorithmic bias?
+A: Bias occurs when AI systems reflect or amplify unfair prejudices from training data.
+
+Q: How can privacy be protected in AI?
+A: By implementing data anonymization, secure storage, and user consent policies.
+
+Q: What are transparency and explainability in AI?
+A: They refer to making AI decisions understandable to users and stakeholders.

@@ -1,0 +1,27 @@
+Q: What is artificial intelligence?
+A: AI is the broader concept of machines being able to carry out tasks in a way that we would consider “smart.”
+
+Q: How is machine learning related to AI?
+A: Machine learning is a subset of AI that focuses on learning from data to improve performance.
+
+Q: What is deep learning?
+A: Deep learning is a subset of machine learning using neural networks with many layers to model complex patterns.
+
+Q: What are neural networks?
+A: Neural networks are computing systems inspired by the brain’s structure that can recognize patterns.
+
+# AI vs ML Vs DL
+Q: What's the difference between AI, ML, and Deep Learning?
+A: AI is the broad field, ML is a subset focused on learning from data, and Deep Learning is a specialized type of ML using layered neural networks.
+
+Q: Is every ML algorithm a form of AI?
+A: Yes, Machine Learning algorithms fall under the broader umbrella of Artificial Intelligence.
+
+Q: Is Deep Learning better than Machine Learning?
+A: Deep Learning is better for complex data (like images or speech), but traditional ML is still effective for simpler tasks with structured data. Deep Learning is a subset of ML that uses neural networks with many layers.
+
+Q: What is overfitting in ML?
+A: Overfitting occurs when a model learns the training data too well, including noise, and performs poorly on new, unseen data.
+
+Q: How do neural networks learn?
+A: Neural networks learn by adjusting the weights of connections based on error feedback, a process called backpropagation.

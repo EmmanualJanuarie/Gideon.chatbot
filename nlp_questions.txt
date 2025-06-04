@@ -1,0 +1,14 @@
+Q: What is NLP?
+A: NLP is a field of AI that focuses on the interaction between computers and human language.
+
+Q: What are some applications of NLP?
+A: NLP is used in chatbots, sentiment analysis, language translation, speech recognition, and more.
+
+Q: What are challenges in NLP?
+A: Challenges include understanding context, ambiguity, sarcasm, and variations in language.
+
+Q: What is tokenization?
+A: Tokenization is the process of breaking text into words, phrases, or other meaningful elements called tokens.
+
+Q: What is named entity recognition (NER)?
+A: NER identifies and classifies key information like names, places, and dates in text.
