@@ -22,12 +22,19 @@ function goToPrompt(prompt) {
     }, 3000);
   }
 
-  
+  let isLoading = false;
+
   function askGideon() {
-    showLoadingMessage(`💬 Launching Gideon… Please wait.`);
-    setTimeout(() => {
-      // No URL called — do something else after the delay if needed
-    }, 5000);
+  if (isLoading) return;
+  isLoading = true;
+
+  showLoadingMessage(`💬 Launching Gideon… Please wait.`);
+  setTimeout(() => {
+    window.open(
+      'https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/04/05/20250604055827-JE1NJD18.json'
+    );
+    isLoading = false;
+  }, 5000);
 }
 
   document.getElementById('themeToggle').addEventListener('click', () => {
