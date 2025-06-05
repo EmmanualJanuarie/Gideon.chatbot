@@ -5,7 +5,7 @@ Q: How can I dive deeper into AI Ethics?
 A: Explore Module 4: Ethics & Social Impacts of AI. It covers bias, fairness, and privacy concerns.
 
 Q: What module covers machine learning basics?
-A: Module 1: Introduction to Machine Learning is a great starting point. Here's the link to the course: https://cognitiveclass.ai/courses/machine-learning-with-python
+A: Module 1: Introduction to Machine Learning is a great starting point. Here's the link to the course: https://www.coursera.org/learn/machine-learning-with-python
 
 Q: How do I learn more about neural networks and deep learning?
-A: Try Module 4: Deep Learning with TensorFlow. It covers architectures like CNNs and RNNs. https://cognitiveclass.ai/courses/deep-learning-tensorflow
+A: Try Module 4: Deep Learning with TensorFlow. It covers architectures like CNNs and RNNs. https://www.coursera.org/specializations/tensorflow2-deeplearning?msockid=0fee7aa3a8fd6c5d3bc66ca3a9006da4

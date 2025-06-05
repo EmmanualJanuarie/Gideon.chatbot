@@ -28,8 +28,29 @@ A: Reinforcement Learning is a type of ML where an agent learns by interacting w
 Q: What is a chatbot?
 A: A chatbot is an AI system designed to simulate human conversation.
 
-Q: What is computer vision?
-A: Computer vision enables machines to interpret and understand visual information from the world.
+Q: What is Custom Vision in AI?
+A: Custom Vision is a service by Microsoft Azure that lets you build, deploy, and improve image classifiers. It allows you to upload your own images, train a model, and then use that model to identify specific objects in new images. For more information here's a link to learn more about computer vision by IBM : https://www.ibm.com/think/topics/computer-vision
+
+Q: How does Custom Vision differ from general image classification?
+A: Unlike general image classifiers that are pre-trained for broad tasks, Custom Vision lets you train models on your own specific categories using custom-labeled images.
+
+Q: Can I use Custom Vision without coding?
+A: Yes! Custom Vision has a web interface where you can upload images, label them, and train models visually—no code needed.
+
+Q: What types of projects can I build with Custom Vision?
+A: Examples include detecting damaged products, recognizing logos, identifying plant diseases, or monitoring factory equipment using images.
+
+Q: Can Custom Vision detect multiple objects in an image?
+A: Yes, it supports object detection, not just classification. You can train it to locate and identify multiple objects in a single image.
+
+Q: What export options does Custom Vision support?
+A: You can export your trained model to run on mobile devices (iOS/Android), Edge devices, or use it via a REST API in the cloud.
+
+Q: Is Custom Vision free?
+A: It has a free tier with limited training and prediction hours. For more usage or better performance, you’ll need a paid Azure plan.
+
+Q: Where can I start using Custom Vision?
+A: Go to the official portal here: https://customvision.ai
 
 Q: How is bias introduced in AI models?
 A: Bias can be introduced through unbalanced or non-representative training data, as well as developer assumptions.

@@ -24,7 +24,15 @@ function goToPrompt(prompt) {
 
   function goToPrompt(prompt) {
     showLoadingMessage(`🧠 Your selected prompt "${prompt}" is loading...`);
-    // You can navigate or do something here if needed.
+
+    // Remove emoji (everything before first space)
+    const cleanPrompt = prompt.replace(/^[^\w]*\s*/, '');
+
+    // Store it in a cookie
+    document.cookie = `gideonPrompt=${encodeURIComponent(cleanPrompt)}; path=/`;
+
+    // Redirect to the Botpress hosted chat URL
+    window.location.href = "https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/04/05/20250604055827-JE1NJD18.json";
   }
 
   function askGideon() {

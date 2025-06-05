@@ -15,11 +15,13 @@ html[data-theme='dark'] {
   --card-bg: var(--card-bg-dark);
 
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 html[data-theme='light'] {
   --bg: var(--bg-light);
   --text: var(--text-light);
   --card-bg: var(--card-bg-light);
+  overflow-x: hidden;
 }
 
 body {
@@ -29,6 +31,10 @@ body {
   color: var(--text);
   transition: background var(--transition), color var(--transition);
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 header {
@@ -41,12 +47,6 @@ header {
   background: var(--bg);
   z-index: 1000;
   border-bottom: 1px solid var(--accent);
-}
-
-header h1 {
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-  font-weight: 700;
 }
 
 #themeToggle {

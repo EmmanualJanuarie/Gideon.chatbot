@@ -5,6 +5,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gideon</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <style>
+    header {
+      width: 100%;
+      padding: 1.5em 0;
+      display: flex;
+      position: relative;
+    }
+    
+    header h1 {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      position: relative;
+      left: 40px;
+    }
+    main {
+      max-width: 700px;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .how-to {
+      margin-top: 2em;
+      padding: 1em;
+    }
+
+    /* Loading card css */
+    .loading-card {
+      position: fixed;
+      top: 70px;
+      right: -300px;
+      width: 280px;
+      background-color: #03dac6;
+      color: #000;
+      padding: 15px;
+      border-radius: 10px 0 0 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: right 0.6s ease-in-out;
+      z-index: 2000;
+      font-weight: bold;
+    }
+
+    .loading-card.show {
+      right: 0;
+    }
+
+    .how-to img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 1em;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    footer {
+      margin-top: 3em;
+      padding: 2em 1em;
+      background-color: #111;
+      color: #aaa;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+
+    footer a {
+      color: #4faaff;
+      text-decoration: none;
+      margin: 0 0.5em;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .welcome h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+    }
+
+    .welcome p {
+      font-size: 1.1rem;
+    }
+
+  </style>
 </head>
 <body>
   <header>
@@ -12,36 +96,41 @@
     <button id="themeToggle" aria-label="Toggle Theme">🌓</button>
   </header>
 
-    <!-- Loading Card -->
-    <div id="loadingCard" class="loading-card">
+  <!-- Loading Card -->
+  <div id="loadingCard" class="loading-card">
     <p id="loadingText">Loading...</p>
-    </div>
+  </div>
 
   <main>
-    <!-- wELCOME MESSAGE -->
+    <!-- Welcome Section -->
     <section class="welcome">
       <h2>Welcome to Gideon</h2>
-      <p>Your futuristic AI companion. Choose a prompt below to begin.</p>
+      <p>Your futuristic AI companion. Click the "<i>Ask Gideon a question</i>" button to start</p>
     </section>
 
-    <!-- Prompt Cards for Gideon -->
-    <section class="prompt-cards">
-      <div class="card" onclick="goToPrompt('What is Machine Learing?')">🤖 What's Machine Learning?</div>
-      <div class="card" onclick="goToPrompt('What is LLMs')">📊 What's LLMs?</div>
-      <div class="card" onclick="goToPrompt('Explain Neural Networks')">🧠 Explain Neural Networks</div>
-      <div class="card" onclick="goToPrompt('What is Computer Vision')">🖥️ What's Computer Vision?</div>
-      <div class="card" onclick="goToPrompt('What is NLP?')">✍️ What's NLP?</div>
+    <!-- Ask Gideon Button -->
+    <button class="ask-gideon" onclick="askGideon()">Ask Gideon a Question</button>
+
+     <!-- How to Use Section -->
+    <section class="how-to">
+      <h3>How to Use Gideon</h3>
+      <p>1. Click the button above to ask a question.</p>
+      <p>2. You'll be redirected to Gideon's AI chat interface.</p>
+      <p>3. Your question will be automatically sent to Gideon.</p>
+      <p>4. Watch the magic happen ✨</p>
+      <img src="images/Gideon-UI.png" alt="Screenshot of Gideon interface">
     </section>
   </main>
 
-   <section class="section-center" id="genQuiz">
-      <div class="card" onclick="goToPrompt('Generate a quiz')">Generate a Quiz</div>
-    </section>
 
- 
-
-  <button class="ask-gideon" onclick="askGideon()">Ask Gideon a Question</button>
-
+  <!-- Footer -->
+  <footer style="padding: 5.5em; background-color: var(--bg-dark); color: #aaa; text-align: center; border-top: 1px solid #333;">
+    <p>&copy; 2025 Gideon AI • Made with <u>Bot Press</u> by Emmanual</p>
+    <p>
+      <a href="docs/documentation.pdf" target="_blank" style="color: #4faaff;">📄 Documentation</a> |
+      <a href="docs/user-guide.pdf" target="_blank" style="color: #4faaff;">👤 User Guide</a>
+    </p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
