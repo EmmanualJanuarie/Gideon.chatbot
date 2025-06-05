@@ -22,23 +22,11 @@ function goToPrompt(prompt) {
     }, 3000);
   }
 
-  function goToPrompt(prompt) {
-    showLoadingMessage(`🧠 Your selected prompt "${prompt}" is loading...`);
-
-    // Remove emoji (everything before first space)
-    const cleanPrompt = prompt.replace(/^[^\w]*\s*/, '');
-
-    // Store it in a cookie
-    document.cookie = `gideonPrompt=${encodeURIComponent(cleanPrompt)}; path=/`;
-
-    // Redirect to the Botpress hosted chat URL
-    window.location.href = "https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/04/05/20250604055827-JE1NJD18.json";
-  }
-
+  
   function askGideon() {
     showLoadingMessage(`💬 Launching Gideon… Please wait.`);
     setTimeout(() => {
-    window.location.href = 'https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/04/05/20250604055827-JE1NJD18.json';
+    window.open('https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/04/05/20250604055827-JE1NJD18.json', '_blank');
     }, 5000); // 5000 milliseconds = 5 seconds
     // Trigger any further action here if needed.
   }
