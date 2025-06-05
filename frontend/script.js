@@ -26,10 +26,9 @@ function goToPrompt(prompt) {
   function askGideon() {
     showLoadingMessage(`💬 Launching Gideon… Please wait.`);
     setTimeout(() => {
-    window.open('https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/04/05/20250604055827-JE1NJD18.json', '_blank');
-    }, 5000); // 5000 milliseconds = 5 seconds
-    // Trigger any further action here if needed.
-  }
+      // No URL called — do something else after the delay if needed
+    }, 5000);
+}
 
   document.getElementById('themeToggle').addEventListener('click', () => {
     document.documentElement.classList.toggle('light');
